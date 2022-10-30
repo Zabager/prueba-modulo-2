@@ -1,0 +1,146 @@
+
+
+/*Font page*/
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@500 & display=swap');
+
+
+*
+{
+ margin: 0;
+ font-size: 25px;
+ font-family: 'Montserrat', sans-serif;
+}
+
+h1
+{
+ background:#C2CCB7;
+ height: 100px;
+ text-align: center;
+ padding-top: 2%;
+ font-size: 50px;
+}
+
+p:first-letter
+{
+ font-size: 40px ;
+ padding: 5% 1% 1% 0%;
+}
+
+h3
+{
+ text-align: right;
+ text-align: center;
+ margin-top: 2%;
+ font-weight: 900;
+}
+
+body
+{
+ background: #000000 ;
+}
+
+div
+{
+ background: #C2CCB7 ;
+ border: 5px solid #5AA606;
+ width: 120px;
+ position: relative;
+ margin-left:75%;
+ margin-top: -3%;
+}
+
+.section-1
+{
+ box-sizing: border-box;
+ background: #E7D377;
+ border: 5px solid #5AA606;
+ padding-left: 1%;
+}
+
+.section-2
+{
+ box-sizing: border-box;
+ background: #DA7249;
+ border: 5px solid #AEF167;
+ padding-left: 1%;
+}
+
+.section-3
+{
+ box-sizing: border-box;
+ background: #EDB29C;
+ border: 5px solid #AEF167;
+ padding-left: 1%;
+}
+
+
+@media(min-width: 992px)
+{
+  .section-1
+ {
+  width: 25%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+ }
+
+ .section-2
+ {
+  width: 25%;
+  float: left;
+  margin-top: 10%;
+  margin-left: 8%;
+ }
+
+ .section-3
+ {
+ 	width: 25%;
+ 	float: right;
+ 	margin-top: 10%;
+ 	margin-right: 5%;
+  margin-left: 5%;
+ }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+ .section-1
+ {
+ 	width: 40%;
+ 	display: inline-block;
+ 	margin-top: 10%;
+ 	margin-left: 5%;
+ }
+
+ .section-2
+ {
+ 	width: 40%;
+ 	display: inline-block;
+ 	margin-top: 10%;
+ 	margin-left: 10%;
+ 	
+ }
+
+ .section-3
+ {
+  margin-top: 5%; 
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+ }
+
+}
+
+@media(max-width: 767px)
+{
+ 
+ section
+ {
+  margin-top: 5%;
+  margin-bottom: 5%;
+ }
+
+}
